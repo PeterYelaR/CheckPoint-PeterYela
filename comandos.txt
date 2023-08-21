@@ -1,0 +1,49 @@
+    1  touch "index.html"
+    2  touch "style.css"
+    3  clear
+    4  exit
+    5  touch "index.html"
+    6  touch "style.css"
+    7  mkdir "imagenes"
+    8  exit
+    9  cd "imagenes"
+   10  mkdir "batman"
+   11  mkdir "harley"
+   12  clear
+   13  exit
+   14  touch "index.html"
+   15  touch "style.css"
+   16  clear
+   17  exit
+   18  git init
+   19  git remote add origin https://github.com/PeterYelaR/Checkpoint-PeterYela.git
+   20  touch "main.js" "index.html"
+   21  git add .
+   22  git commit -m "commit 01 de PeterYela"
+   23  git push origin main
+   24  git branch "feature"
+   25  git checkout "feature"
+   26  mkdir "Hardware" "Software" "SeguridadInformatica"
+   27  cd "Hardware"
+   28  touch "resumen.txt"
+   29  cd ..
+   30  cd "Software"
+   31  touch "resumen.txt"
+   32  cd "SeguridadInformatica"
+   33  cd ..
+   34  cd "SeguridadInformatica"
+   35  touch "resumen.txt"
+   36  cd ..
+   37  git add .
+   38  git push origin feature
+   39  git commit -m "commit 02 de PeterYela"
+   40  git push origin feature
+   41  git checkout "main"
+   42  mv "main.js" "resumenHardware.txt"
+   43  mv "index.html" "resumenSoftware.txt"
+   44  git add .
+   45  git commit -m "commit 03 de PeterYela"
+   46  git push origin main
+   47  touch "comandos.txt"
+   48  history
+   49  history > comandos.txt
